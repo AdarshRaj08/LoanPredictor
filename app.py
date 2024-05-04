@@ -11,7 +11,7 @@ with open('loan.pkl', 'rb') as model_file:
 df = pd.read_csv('dataset.csv')
 st.markdown("""
     <div style='background-color:#f9f9f9;padding:10px;border-radius:10px'>
-    <h2 style='text-align:center;color:#dc143c;'>Welcome to LoanPredict!</h2>
+    <h2 style='text-align:center;color:#dc143c;'>Welcome to LoanPredict</h2>
     <p style='text-align:justify;color:#5f6368;'>LoanPredict is a web app I built to help lenders quickly assess loan applications. It predicts loan approval based on applicant data like income, credit history, and property location. It streamlines the lending process for faster decisions.</p>
     </div>
     """, unsafe_allow_html=True)
